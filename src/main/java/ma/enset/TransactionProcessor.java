@@ -12,7 +12,7 @@ import java.util.Properties;
 public class TransactionProcessor {
     private static final String INPUT_TOPIC = "transactions-input";
     private static final String OUTPUT_TOPIC = "fraud-alerts";
-    private static final double SUSPICIOUS_AMOUNT = 8000.0;
+    private static final double SUSPICIOUS_AMOUNT = 10_000.0;
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
     public static void main(String[] args) {
